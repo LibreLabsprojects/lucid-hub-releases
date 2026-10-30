@@ -14,7 +14,7 @@
 
 ---
 
-Lucid Hub es un reproductor para la música que ya tienes en tu teléfono Android: playlists, letras con karaoke y traducción, carátulas, ecualizador, temas (incluidos los retro con aspecto de MP3) y copias de seguridad.
+Lucid Hub es un reproductor para la música que ya tienes en tu teléfono Android: playlists, letras con karaoke y traducción, carátulas, ecualizador, temas (incluidos los retro con aspecto de MP3), copias de seguridad y **compartir música con teléfonos cercanos, sin internet**.
 
 Este repositorio es solo para **descargar la app**. Cada versión está en [Releases](https://github.com/LibreLabsprojects/lucid-hub-releases/releases), con sus novedades.
 
@@ -49,7 +49,8 @@ Necesita **Android 7.0 o más nuevo**.
 ## Privacidad
 
 - Tu música se queda en tu teléfono: nunca se sube a ningún lado.
-- La app solo pide permiso para leer tu **música** (no tus fotos ni videos).
+- La app pide permiso para leer tu **música** (no tus fotos ni videos).
+- Al **compartir con un teléfono cercano**, las canciones van directo de un teléfono al otro, sin pasar por internet. Para buscar teléfonos, Android pide **"Dispositivos cercanos"** y **"Ubicación"**: la app no usa ni guarda tu ubicación, y solo los pide cuando entras a compartir.
 - Se conecta a internet para buscar carátulas, nombres, letras y fotos de artistas en bases de datos abiertas (MusicBrainz, Cover Art Archive, LRCLIB y Wikimedia) y, si lo activas, en iTunes. Solo envía el nombre de la canción o del artista.
 - La cuenta de Google es **opcional**: solo sirve para guardar tus copias de seguridad en la nube, donde solo tú puedes verlas.
 
