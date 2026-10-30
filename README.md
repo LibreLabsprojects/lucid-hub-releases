@@ -14,7 +14,7 @@
 
 ---
 
-Lucid Hub es un reproductor para la música que ya tienes en tu teléfono Android: playlists, letras con karaoke y traducción, carátulas, ecualizador, temas (incluidos los retro con aspecto de MP3), copias de seguridad y **compartir música con teléfonos cercanos, sin internet**.
+Lucid Hub es un reproductor para la música que ya tienes en tu teléfono Android: playlists, letras con karaoke y traducción, carátulas, ecualizador, temas (incluidos los retro con aspecto de MP3), copias de seguridad, **compartir música con teléfonos cercanos y sincronizar tus teléfonos, sin internet**.
 
 Este repositorio es solo para **descargar la app**. Cada versión está en [Releases](https://github.com/LibreLabsprojects/lucid-hub-releases/releases), con sus novedades.
 
@@ -42,7 +42,7 @@ Ojo: lo que cuenta es el **Android que trae**, no solo el procesador. Hay teléf
 3. Si Android lo pide, permite **instalar apps de esta fuente** (es una app que no viene de Play Store).
 4. Toca **Instalar**.
 
-**Para actualizar**, haz lo mismo con la versión nueva (del mismo tipo: 32 bits si usabas esa): se instala encima y conserva tus playlists, nombres, carátulas y ajustes.
+**Para actualizar:** desde la versión 1.6.0, la app te avisa en Inicio cuando hay una versión nueva y la instala por ti (también en *Ajustes → Información → Buscar actualizaciones*). Si tienes una versión anterior, actualiza a mano una última vez: descarga la nueva (del mismo tipo: 32 bits si usabas esa) y ábrela. Se instala encima y conserva tus playlists, nombres, carátulas y ajustes.
 
 Necesita **Android 7.0 o más nuevo**.
 
@@ -52,6 +52,7 @@ Necesita **Android 7.0 o más nuevo**.
 - La app pide permiso para leer tu **música** (no tus fotos ni videos).
 - Al **compartir con un teléfono cercano**, las canciones van directo de un teléfono al otro, sin pasar por internet. Para buscar teléfonos, Android pide **"Dispositivos cercanos"** y **"Ubicación"**: la app no usa ni guarda tu ubicación, y solo los pide cuando entras a compartir.
 - Se conecta a internet para buscar carátulas, nombres, letras y fotos de artistas en bases de datos abiertas (MusicBrainz, Cover Art Archive, LRCLIB y Wikimedia) y, si lo activas, en iTunes. Solo envía el nombre de la canción o del artista.
+- Una vez al día, la app pregunta aquí, en GitHub, si hay una versión nueva (se puede desactivar). Para instalar las actualizaciones, Android pide permitir que Lucid Hub **instale apps**, y siempre pregunta antes de instalar.
 - La cuenta de Google es **opcional**: solo sirve para guardar tus copias de seguridad en la nube, donde solo tú puedes verlas.
 
 ## Contacto
