@@ -18,14 +18,31 @@ Lucid Hub es un reproductor para la música que ya tienes en tu teléfono Androi
 
 Este repositorio es solo para **descargar la app**. Cada versión está en [Releases](https://github.com/LibreLabsprojects/lucid-hub-releases/releases), con sus novedades.
 
+## ¿Cuál descargo?
+
+En cada versión hay dos archivos:
+
+| Archivo | Para quién |
+|---|---|
+| **`LucidHub-x.x.x.apk`** | **Casi todos los teléfonos.** Empieza por este. |
+| **`LucidHub-x.x.x-32bits.apk`** | Teléfonos con Android de 32 bits: úsalo **si el otro dice "App no instalada"** o "El paquete no es válido". |
+
+Pistas de que tu teléfono es de 32 bits:
+
+- Es **económico o tiene varios años** (por ejemplo, de 2020 o antes).
+- Tiene **2 GB de RAM o menos**.
+- Trae **Android 9 o anterior**, o es una edición **Android Go**.
+
+Ojo: lo que cuenta es el **Android que trae**, no solo el procesador. Hay teléfonos con procesador de 64 bits que vienen con Android de 32 bits para ahorrar memoria (como el Moto E6s). Si quieres saberlo con seguridad, una app como **CPU-Z** lo muestra en *Sistema → Arquitectura del kernel* (`armv7` o `armeabi-v7a` es 32 bits; `aarch64` o `arm64` es 64 bits).
+
 ## Cómo instalarla
 
-1. Abre [la última versión](https://github.com/LibreLabsprojects/lucid-hub-releases/releases/latest) y descarga el archivo **`LucidHub-x.x.x.apk`** (mejor con Wi-Fi: pesa unos 43 MB).
+1. Abre [la última versión](https://github.com/LibreLabsprojects/lucid-hub-releases/releases/latest) y descarga el archivo que te corresponde (mejor con Wi-Fi: pesa unos 40 MB).
 2. Ábrelo desde las notificaciones o desde la carpeta Descargas.
 3. Si Android lo pide, permite **instalar apps de esta fuente** (es una app que no viene de Play Store).
 4. Toca **Instalar**.
 
-**Para actualizar**, haz lo mismo con la versión nueva: se instala encima y conserva tus playlists, nombres, carátulas y ajustes.
+**Para actualizar**, haz lo mismo con la versión nueva (del mismo tipo: 32 bits si usabas esa): se instala encima y conserva tus playlists, nombres, carátulas y ajustes.
 
 Necesita **Android 7.0 o más nuevo**.
 
