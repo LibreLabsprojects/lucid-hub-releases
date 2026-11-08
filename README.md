@@ -5,7 +5,7 @@
 <h1 align="center">Lucid Hub</h1>
 
 <p align="center">
-  Tu música, en tu teléfono y sin anuncios. Con respaldo local y en la nube.
+  Tu música y tus videos, en tu teléfono y sin anuncios. Con respaldo local y en la nube.
 </p>
 
 <p align="center">
@@ -14,7 +14,11 @@
 
 ---
 
-Lucid Hub es un reproductor para la música que ya tienes en tu teléfono Android: playlists, letras con karaoke y traducción, carátulas, ecualizador, temas (incluidos los retro con aspecto de MP3), copias de seguridad, **compartir música con teléfonos cercanos y sincronizar tus teléfonos, sin internet**.
+Lucid Hub es un reproductor para la música y los videos que ya tienes en tu teléfono Android.
+
+**Videos:** colecciones de series y películas, casi cualquier formato, subtítulos, ventana pequeña, **enviar a la TV** y **compartir videos con teléfonos cercanos**.
+
+**Música:** playlists, letras con karaoke y traducción, carátulas, ecualizador, temas (incluidos los retro con aspecto de MP3), copias de seguridad, **compartir música con teléfonos cercanos y sincronizar tus teléfonos, sin internet**.
 
 Este repositorio es solo para **descargar la app**. Cada versión está en [Releases](https://github.com/LibreLabsprojects/lucid-hub-releases/releases), con sus novedades.
 
@@ -37,7 +41,7 @@ Ojo: lo que cuenta es el **Android que trae**, no solo el procesador. Hay teléf
 
 ## Cómo instalarla
 
-1. Abre [la última versión](https://github.com/LibreLabsprojects/lucid-hub-releases/releases/latest) y descarga el archivo que te corresponde (mejor con Wi-Fi: pesa unos 40 MB).
+1. Abre [la última versión](https://github.com/LibreLabsprojects/lucid-hub-releases/releases/latest) y descarga el archivo que te corresponde (mejor con Wi-Fi: pesa unos 60 MB).
 2. Ábrelo desde las notificaciones o desde la carpeta Descargas.
 3. Si Android lo pide, permite **instalar apps de esta fuente** (es una app que no viene de Play Store).
 4. Toca **Instalar**.
@@ -48,10 +52,12 @@ Necesita **Android 7.0 o más nuevo**.
 
 ## Privacidad
 
-- Tu música se queda en tu teléfono: nunca se sube a ningún lado.
-- La app pide permiso para leer tu **música** (no tus fotos ni videos).
-- Al **compartir con un teléfono cercano**, las canciones van directo de un teléfono al otro, sin pasar por internet. Para buscar teléfonos, Android pide **"Dispositivos cercanos"** y **"Ubicación"**: la app no usa ni guarda tu ubicación, y solo los pide cuando entras a compartir.
+- Tu música y tus videos se quedan en tu teléfono: nunca se suben a ningún lado.
+- La app pide permiso para leer tu **música** y, solo al entrar a la sección Videos, tus **videos**. No lee tus fotos.
+- Al **enviar un video a la TV**, va del teléfono a la TV por tu Wi-Fi, sin pasar por internet.
+- Al **compartir con un teléfono cercano**, las canciones y los videos van directo de un teléfono al otro, sin pasar por internet: si los dos están en el mismo Wi-Fi, por esa red (con una clave que solo conocen los dos); si no, por Bluetooth y Wi-Fi directo. Para buscar teléfonos, Android pide **"Dispositivos cercanos"** y **"Ubicación"**: la app no usa ni guarda tu ubicación, y solo los pide cuando entras a compartir.
 - Se conecta a internet para buscar carátulas, nombres, letras y fotos de artistas en bases de datos abiertas (MusicBrainz, Cover Art Archive, LRCLIB y Wikimedia) y, si lo activas, en iTunes. Solo envía el nombre de la canción o del artista.
+- Si buscas la portada de una serie o un anime, envía a TVmaze y AniList solo el nombre que escribes. Para traducir letras y subtítulos descarga paquetes de idioma una vez; la traducción se hace dentro del teléfono.
 - Una vez al día, la app pregunta aquí, en GitHub, si hay una versión nueva (se puede desactivar). Para instalar las actualizaciones, Android pide permitir que Lucid Hub **instale apps**, y siempre pregunta antes de instalar.
 - La cuenta de Google es **opcional**: solo sirve para guardar tus copias de seguridad en la nube, donde solo tú puedes verlas.
 
